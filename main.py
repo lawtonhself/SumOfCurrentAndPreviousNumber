@@ -4,6 +4,8 @@
 PREVIOUS_NUMBER = 0
 SUM_OF_NUMBERS = 0
 
+print("Printing current and previous number sum in a range(10)")
+
 for i in range(10):
     SUM_OF_NUMBERS = i + PREVIOUS_NUMBER
     print(
